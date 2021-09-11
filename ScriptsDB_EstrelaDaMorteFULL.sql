@@ -1,11 +1,7 @@
-# ScriptsDB_EstrelaDaMorteFULL
-
-
-
-## :black_circle::skull:  USE [EstrelaDaMorte]
+USE [EstrelaDaMorte]
 GO
 
-:earth_africa: /****** Object:  Table [dbo].[Planetas]    Script Date: 11/09/2021 14:58:27 ******/
+/****** Object:  Table [dbo].[Planetas]    Script Date: 11/09/2021 14:58:27 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -32,7 +28,7 @@ GO
 USE [EstrelaDaMorte]
 GO
 
-:woman_pilot: /****** Object:  Table [dbo].[Pilotos]    Script Date: 11/09/2021 14:58:50 ******/
+/****** Object:  Table [dbo].[Pilotos]    Script Date: 11/09/2021 14:58:50 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -63,7 +59,7 @@ GO
 USE [EstrelaDaMorte]
 GO
 
-:rocket: /****** Object:  Table [dbo].[Naves]    Script Date: 11/09/2021 14:59:21 ******/
+/****** Object:  Table [dbo].[Naves]    Script Date: 11/09/2021 14:59:21 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -89,7 +85,7 @@ GO
 USE [EstrelaDaMorte]
 GO
 
-:woman_pilot::rocket: /****** Object:  Table [dbo].[PilotosNaves]    Script Date: 11/09/2021 14:59:44 ******/
+/****** Object:  Table [dbo].[PilotosNaves]    Script Date: 11/09/2021 14:59:44 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -130,7 +126,7 @@ GO
 USE [EstrelaDaMorte]
 GO
 
-:scroll: /****** Object:  Table [dbo].[HistoricoViagens]    Script Date: 11/09/2021 15:00:02 ******/
+/****** Object:  Table [dbo].[HistoricoViagens]    Script Date: 11/09/2021 15:00:02 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -151,3 +147,4 @@ GO
 
 ALTER TABLE [dbo].[HistoricoViagens] CHECK CONSTRAINT [FK_HistoricoViagens_PilotosNaves]
 GO
+
